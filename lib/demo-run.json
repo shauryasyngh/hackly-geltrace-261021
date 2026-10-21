@@ -1,0 +1,146 @@
+{
+  "id": "00000000-0000-4000-8000-000000000007",
+  "title": "gel run 07",
+  "image_path": "/images/gel-run-07.png",
+  "image_width": 640,
+  "image_height": 360,
+  "target_bp": 500,
+  "is_demo": true,
+  "lanes": [
+    {
+      "id": "10000000-0000-4000-8000-000000000001",
+      "run_id": "00000000-0000-4000-8000-000000000007",
+      "lane_number": 1,
+      "label": "ladder",
+      "role": "ladder",
+      "x_left": 60,
+      "x_right": 132,
+      "bands": [
+        {
+          "id": "20000000-0000-4000-8000-000000000001",
+          "lane_id": "10000000-0000-4000-8000-000000000001",
+          "y_center": 70,
+          "band_height": 8,
+          "reference_bp": 1000,
+          "evidence_label": "ladder reference: 1000 bp"
+        },
+        {
+          "id": "20000000-0000-4000-8000-000000000002",
+          "lane_id": "10000000-0000-4000-8000-000000000001",
+          "y_center": 115,
+          "band_height": 8,
+          "reference_bp": 700,
+          "evidence_label": "ladder reference: 700 bp"
+        },
+        {
+          "id": "20000000-0000-4000-8000-000000000003",
+          "lane_id": "10000000-0000-4000-8000-000000000001",
+          "y_center": 140,
+          "band_height": 8,
+          "reference_bp": 600,
+          "evidence_label": "ladder reference: 600 bp"
+        },
+        {
+          "id": "20000000-0000-4000-8000-000000000004",
+          "lane_id": "10000000-0000-4000-8000-000000000001",
+          "y_center": 180,
+          "band_height": 8,
+          "reference_bp": 500,
+          "evidence_label": "ladder reference: 500 bp"
+        },
+        {
+          "id": "20000000-0000-4000-8000-000000000005",
+          "lane_id": "10000000-0000-4000-8000-000000000001",
+          "y_center": 225,
+          "band_height": 8,
+          "reference_bp": 400,
+          "evidence_label": "ladder reference: 400 bp"
+        },
+        {
+          "id": "20000000-0000-4000-8000-000000000006",
+          "lane_id": "10000000-0000-4000-8000-000000000001",
+          "y_center": 280,
+          "band_height": 8,
+          "reference_bp": 300,
+          "evidence_label": "ladder reference: 300 bp"
+        }
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000002",
+      "run_id": "00000000-0000-4000-8000-000000000007",
+      "lane_number": 2,
+      "label": "positive",
+      "role": "positive",
+      "x_left": 164,
+      "x_right": 236,
+      "bands": [
+        {
+          "id": "20000000-0000-4000-8000-000000000007",
+          "lane_id": "10000000-0000-4000-8000-000000000002",
+          "y_center": 180,
+          "band_height": 8,
+          "reference_bp": null,
+          "evidence_label": "positive control band"
+        }
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000003",
+      "run_id": "00000000-0000-4000-8000-000000000007",
+      "lane_number": 3,
+      "label": "negative",
+      "role": "negative",
+      "x_left": 268,
+      "x_right": 340,
+      "bands": [
+        {
+          "id": "20000000-0000-4000-8000-000000000008",
+          "lane_id": "10000000-0000-4000-8000-000000000003",
+          "y_center": 178,
+          "band_height": 6,
+          "reference_bp": null,
+          "evidence_label": "faint negative-control band: seeded review flag; review control before interpreting samples"
+        }
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000004",
+      "run_id": "00000000-0000-4000-8000-000000000007",
+      "lane_number": 4,
+      "label": "sample a",
+      "role": "sample",
+      "x_left": 372,
+      "x_right": 444,
+      "bands": [
+        {
+          "id": "20000000-0000-4000-8000-000000000009",
+          "lane_id": "10000000-0000-4000-8000-000000000004",
+          "y_center": 175.655,
+          "band_height": 8,
+          "reference_bp": null,
+          "evidence_label": "sample a band"
+        }
+      ]
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000005",
+      "run_id": "00000000-0000-4000-8000-000000000007",
+      "lane_number": 5,
+      "label": "sample b",
+      "role": "sample",
+      "x_left": 476,
+      "x_right": 548,
+      "bands": [
+        {
+          "id": "20000000-0000-4000-8000-000000000010",
+          "lane_id": "10000000-0000-4000-8000-000000000005",
+          "y_center": 225,
+          "band_height": 8,
+          "reference_bp": null,
+          "evidence_label": "sample b band"
+        }
+      ]
+    }
+  ]
+}
